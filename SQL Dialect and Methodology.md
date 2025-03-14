@@ -7,6 +7,11 @@ In this project, I used Snowflake SQL to parse JSON files, create tables, and lo
 * Upload JSON files using Snowflake UI to the stage for processing (users.json, receipts.json, brands.json).
 ```
 create stage fetch;
+
+CREATE FILE FORMAT JSON
+  TYPE = 'JSON'
+  COMPRESSION = 'AUTO' 
+;
 ```
 ![image](https://github.com/user-attachments/assets/36d159ec-4fa0-4940-bd4a-a49493500a01)
 
