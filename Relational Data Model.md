@@ -1,6 +1,6 @@
 # Fetch Data Model 
 
-![image](https://github.com/user-attachments/assets/42b347c0-cfcb-40be-8b96-194400ff781b)
+![image](https://github.com/emena6558/Fetch/blob/main/Data_Model.png)
 
 ## Relationships
 
