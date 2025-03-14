@@ -17,7 +17,7 @@ where barcode in (
 )
 order by 1;
 ```
-![image](https://github.com/user-attachments/assets/07951094-c34b-47be-8fac-dee9bea61273)
+![image](https://github.com/emena6558/Fetch/blob/main/images/issue1.png)
 
 2) Missing Barcodes in REWARDS_RECEIPT_ITEM_LIST
       * Many records in the REWARDS_RECEIPT_ITEM_LIST table do not have any barcode information.
@@ -25,11 +25,11 @@ order by 1;
 ```
 SELECT * FROM REWARDS_RECEIPT_ITEM_LIST where barcode is null;
 ```
-![image](https://github.com/user-attachments/assets/04cb2c7b-5123-499a-9f73-e3c2870cb25c)
+![image](https://github.com/emena6558/Fetch/blob/main/images/issue2.png)
 
 3) Duplicates Users:
     * The id field should ideally be unique, as each user represents a unique entity in the system. Duplicate user_id entries would make it difficult to ensure that each user has only one record, leading to potential inconsistencies in user-related analyses.
 ```
 SELECT * FROM USERS;
 ```
-![image](https://github.com/user-attachments/assets/7f5aad43-4c35-485e-b88b-e1c8879d155a)
+![image](https://github.com/emena6558/Fetch/blob/main/images/issue3.png)
