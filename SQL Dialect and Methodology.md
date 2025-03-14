@@ -13,7 +13,7 @@ CREATE FILE FORMAT JSON
   COMPRESSION = 'AUTO' 
 ;
 ```
-![image](https://github.com/user-attachments/assets/36d159ec-4fa0-4940-bd4a-a49493500a01)
+![image](https://github.com/emena6558/Fetch/blob/main/images/stage.png)
 
 ## Step 2: Create the Tables and Parse Data
 
